@@ -81,15 +81,9 @@ Customizing UI with theme switchers and sound control
 ✅ Sound customization
 
 ✅ Theme switcher toggle UI
+
 ---
 ## 📄 License
 This project is open source and available under the MIT License.
-
-## 🙌 Acknowledgements
-React
-
-Tailwind CSS
-
-iziToast
 
 ---
