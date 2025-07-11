@@ -24,15 +24,12 @@ A React-based frontend project featuring a digital clock, alarm setting and mana
 
 ---
 
-## 📸 Demo & Screenshots
-
-> 📌 **Live Demo:** [https://your-live-demo-link.com](https://your-live-demo-link.com)
+## 📸 Screenshots
 
 | Light Mode | Dark Mode |
 |------------|-----------|
 | ![light](https://via.placeholder.com/300x180.png?text=Light+Mode) | ![dark](https://via.placeholder.com/300x180.png?text=Dark+Mode) |
 
-> Replace the placeholder images and link above with real screenshots and your deployed project URL.
 
 ---
 
@@ -65,24 +62,26 @@ A React-based frontend project featuring a digital clock, alarm setting and mana
    ```
 ---
 ## 🧠 What I Learned
-React Hooks: useState, useEffect, useRef
 
-State lifting and props sharing between components
+- React Hooks: useState, useEffect, useRef
 
-Tailwind CSS utility-first styling
+- State lifting and props sharing between components
 
-Using iziToast for interactive feedback
+- Tailwind CSS utility-first styling
 
-Saving data in LocalStorage
+- Using iziToast for interactive feedback
 
-Customizing UI with theme switchers and sound control
+- Saving data in LocalStorage
+
+- Customizing UI with theme switchers and sound control
 
 ## ✅ Completed Features
-✅ Alarm persistence (LocalStorage)
 
-✅ Sound customization
+-✅ Alarm persistence (LocalStorage)
 
-✅ Theme switcher toggle UI
+-✅ Sound customization
+
+-✅ Theme switcher toggle UI
 
 ---
 ## 📄 License
