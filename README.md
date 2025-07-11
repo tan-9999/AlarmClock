@@ -45,17 +45,17 @@ A React-based frontend project featuring a digital clock, alarm setting and mana
    ```
 2. **Install dependencies**
 
-```bash
-npm install
-Run the project
-```
+   ```bash
+   npm install
+   Run the project
+   ```
 3. **Run locally**
 
-```bash
+   ```bash
 
-npm run dev
-Open http://localhost:5173 in your browser
-```
+   npm run dev
+   Open http://localhost:5173 in your browser
+   ```
 
 ## ⚙️ Available Scripts
 ```Command	Description
