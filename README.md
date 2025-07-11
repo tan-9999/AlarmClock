@@ -52,17 +52,17 @@ A React-based frontend project featuring a digital clock, alarm setting and mana
 3. **Run locally**
 
    ```bash
-
    npm run dev
    Open http://localhost:5173 in your browser
    ```
 
 ## ⚙️ Available Scripts
-```Command	Description
-npm run dev	
-npm run build	
-npm run preview	
-```
+
+   ```Command	Description
+   npm run dev	
+   npm run build	
+   npm run preview	
+   ```
 ---
 ## 🧠 What I Learned
 React Hooks: useState, useEffect, useRef
