@@ -43,12 +43,14 @@ A React-based frontend project featuring a digital clock, alarm setting and mana
    git clone https://github.com/your-username/AlarmClock.git
    cd AlarmClock
    ```
-Install dependencies
+2. **Install dependencies**
 
 ```bash
 npm install
 Run the project
 ```
+3. **Run locally**
+
 ```bash
 
 npm run dev
@@ -57,9 +59,9 @@ Open http://localhost:5173 in your browser
 
 ## ⚙️ Available Scripts
 ```Command	Description
-npm run dev	Runs the app in development
-npm run build	Builds the app for production
-npm run preview	Previews the production build
+npm run dev	
+npm run build	
+npm run preview	
 ```
 ---
 ## 🧠 What I Learned
