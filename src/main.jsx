@@ -8,6 +8,5 @@ import DarkMode from './components/DarkMode.jsx'
 createRoot(document.getElementById('root')).render(
   <>
     <App />
-    <ItsTime />
   </>,
 )
