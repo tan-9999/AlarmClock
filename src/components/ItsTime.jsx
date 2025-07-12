@@ -13,8 +13,6 @@ function snooze15() {
 
   // Add 5 minutes to the current time
   now.setMinutes(now.getMinutes() + 5);
-
-  // Format the new time as "HH:MM:SS" (24-hour format)
   const snoozeTime = now.toLocaleTimeString("en-GB", {
     hour12: false,
     hour: "2-digit",
@@ -44,6 +42,7 @@ useEffect(() => {
 
     }, [value]);
 
+//-------------------------------------------------------------------
   const UpdateTime = () => {
     const current = new Date().toLocaleTimeString("en-GB");
     // setNow(current);

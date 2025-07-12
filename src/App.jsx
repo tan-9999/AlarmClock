@@ -15,12 +15,6 @@ function App() {
     }
   });
 
-  
-  
-  // const addAlarm = (Atime) => {
-  //   // console.log(Atime);
-  //   setData((prev) => [{id: Date.now(), ...Atime}, ...prev])
-  // }
   const addAlarm = (Atime) => {
     console.log("addAlarm called with:", Atime); 
     setData((prev) => [{ id: Date.now(), ...Atime }, ...prev]);
