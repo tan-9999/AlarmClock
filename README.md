@@ -1,12 +1,90 @@
-# React + Vite
+# ⏰ AlarmClock
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based frontend project featuring a digital clock, alarm setting and management, dark mode toggle, and interactive toast notifications using **iziToast**. Built with **React (Vite)**, **Tailwind CSS**, and **iziToast**, this project was created as part of my hands-on learning journey focused on modern React concepts.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔮 Features
 
-## Expanding the ESLint configuration
+- 🕒 Real-time Digital Clock (12 / 24-hour toggle)
+- ⏰ Add, edit, and delete alarms
+- 💾 Alarm persistence using **LocalStorage**
+- 🔊 Alarm sound customization
+- 📣 Interactive alarm popup with **iziToast**
+- 🌙 Dark Mode with UI toggle
+- 📱 Responsive design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧪 Tech Stack
+
+- ⚛️ React (with Vite)
+- 🎨 Tailwind CSS
+- 📣 iziToast
+
+---
+
+## 📸 Screenshots
+
+| Light Mode | Dark Mode |
+|------------|-----------|
+| ![light](https://via.placeholder.com/300x180.png?text=Light+Mode) | ![dark](https://via.placeholder.com/300x180.png?text=Dark+Mode) |
+
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/your-username/AlarmClock.git
+   cd AlarmClock
+   ```
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   Run the project
+   ```
+3. **Run locally**
+
+   ```bash
+   npm run dev
+   Open http://localhost:5173 in your browser
+   ```
+
+## ⚙️ Available Scripts
+
+   ```Command	Description
+   npm run dev	
+   npm run build	
+   npm run preview	
+   ```
+---
+## 🧠 What I Learned
+
+- React Hooks: useState, useEffect, useRef
+
+- State lifting and props sharing between components
+
+- Tailwind CSS utility-first styling
+
+- Using iziToast for interactive feedback
+
+- Saving data in LocalStorage
+
+- Customizing UI with theme switchers and sound control
+
+## ✅ Completed Features
+
+-✅ Alarm persistence (LocalStorage)
+
+-✅ Sound customization
+
+-✅ Theme switcher toggle UI
+
+---
+## 📄 License
+This project is open source.
+
+---
