@@ -3,9 +3,6 @@ import { useState,useEffect } from "react"
 function DarkMode() {
   const [themeMode, setThemeMode] = useState("light")
 
-  const darkTheme = () => {
-    setThemeMode("dark")
-  }
 
   const onChangeBtn = (e) => {
         const darkModeStatus = e.currentTarget.checked

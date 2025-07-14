@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import AlarmSetCard from "./AlarmSetCard"
 import AlarmList from "./AlarmList";
+import Style from "../styles/clockcard.module.css"
 
 function ClockCard() {
 
@@ -55,7 +56,7 @@ const [isVisible2, setIsVisible2] = useState(false);
 
         return (
         <>
-        <div className="h-130 flex flex-row">
+    <div className={`${Style.clockCard} h-130 flex flex-row`}>
     <div className="flex flex-row items-center mr-5">
       <div className="flex flex-col items-center bg-gray-900 dark:bg-gray-100 py-35 px-20 ml-10 mr-5 border-2 border-white dark:border-gray-400 rounded-2xl">
         <div className="flex items-center justify-center">

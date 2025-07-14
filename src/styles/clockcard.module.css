@@ -1,0 +1,12 @@
+.clockCard {
+    background-color: aquamarine;
+    padding-top: 1rem;
+    border: 2px solid white;
+    padding-bottom: 1rem;
+    border-radius: 50%;
+}
+
+:global(.dark) .clockCard {
+  background-color: rgba(238, 220, 18, 0.988);
+  /* border-color: #364153; */
+}
