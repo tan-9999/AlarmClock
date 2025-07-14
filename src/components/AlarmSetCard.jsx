@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import { useAlarm } from "../context"
-import iziToast from "iziToast"
+// import iziToast from "iziToast"
 
 function AlarmSetCard() {
     const [hr, setHr] = useState()
